@@ -73,7 +73,8 @@ This is an **educational / demonstration project**, not a production Aadhaar ser
 ##  Project Structure
 
 ### Backend
-'''backend/
+<pre>
+backend/
 ├── src/
 │ ├── controllers/
 │ │ └── user.controller.js
@@ -95,11 +96,12 @@ This is an **educational / demonstration project**, not a production Aadhaar ser
 │ └── constants.js
 ├── index.js
 ├── .env
-└── package.json'''
-
+└── package.json
+</pre>
 
 ### Frontend
-'''frontend/
+<pre>
+frontend/
 ├── src/
 │ ├── pages/
 │ │ └── auth/
@@ -111,8 +113,8 @@ This is an **educational / demonstration project**, not a production Aadhaar ser
 │ ├── main.jsx
 │ └── index.css
 ├── index.html
-└── package.json'''
-
+└── package.json
+</pre>
 
 
 
@@ -180,17 +182,17 @@ ENCRYPTION_KEY=your_encryption_key
 ##  Running the Project
 
 ### Backend
-cd backend
-npm install
-npm run start
+- cd backend
+- npm install
+- npm run start
 
 
 
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 
 ---
