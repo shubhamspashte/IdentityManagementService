@@ -5,7 +5,7 @@ A secure **Identity Management System** that demonstrates how sensitive personal
 This project focuses on **authentication**, **data security**, and **secure backend–frontend communication**, rather than business-domain logic.
 
 ---
-## 🎥 Project Demo Video
+##  Project Demo Video
 Watch the complete project walkthrough here:  
 https://drive.google.com/file/d/136UBT4HWr2o7xRRMf1iSJ04Xlh70wLKx/view?usp=drive_link
 
@@ -73,7 +73,7 @@ This is an **educational / demonstration project**, not a production Aadhaar ser
 ##  Project Structure
 
 ### Backend
-backend/
+'''backend/
 ├── src/
 │ ├── controllers/
 │ │ └── user.controller.js
@@ -95,11 +95,11 @@ backend/
 │ └── constants.js
 ├── index.js
 ├── .env
-└── package.json
+└── package.json'''
 
 
 ### Frontend
-frontend/
+'''frontend/
 ├── src/
 │ ├── pages/
 │ │ └── auth/
@@ -111,14 +111,14 @@ frontend/
 │ ├── main.jsx
 │ └── index.css
 ├── index.html
-└── package.json
+└── package.json'''
 
 
 
 
 ---
 
-## 🔑 Authentication Flow
+##  Authentication Flow
 
 1. User logs in using email and password
 2. Backend validates credentials
@@ -130,7 +130,7 @@ frontend/
 
 ---
 
-## 🔐 Aadhaar Security Design
+##  Aadhaar Security Design
 
 ### Storage
 - Aadhaar is encrypted before saving to MongoDB
@@ -152,7 +152,7 @@ This ensures:
 
 ---
 
-## ▶ API Endpoints
+##  API Endpoints
 ### Authentication
 | Method | Endpoint | Description |
 |------|---------|-------------|
@@ -195,7 +195,7 @@ npm run dev
 
 ---
 
-## 🤖 AI-Assisted Development
+##  AI-Assisted Development
 
 This project was developed with the assistance of AI tools to improve productivity, code quality, and learning efficiency.  
 All core design decisions and final implementations were reviewed and integrated manually.
